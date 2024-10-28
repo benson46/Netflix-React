@@ -4,7 +4,7 @@ const Netflixavatar = () => {
         <rect width="100%" height="100%" fill="#0d7e80"/>
         <circle cx="350" cy="350" r="60" fill="white"/>
         <circle cx="670" cy="350" r="60" fill="white"/>
-        <path d="M400 600 Q512 720 624 600" stroke="white" stroke-width="50" fill="none"/>
+        <path  d="M400 600 Q512 720 624 600" stroke="white" strokeWidth="50" fill="none"/>
       </svg>
 
      );
