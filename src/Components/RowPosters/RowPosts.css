@@ -1,42 +1,41 @@
-.row{
-    color: white;
-    padding-left: 50px;
+.row {
+  color: white;
+  padding-left: 50px;
 }
-.posters{
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-
-.posters::-webkit-scrollbar{
-    display: none;
+.posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
-.post{
-    padding-right: 10px;
-    width: 12%;
-    cursor: pointer;
-    max-height: 280px; /* Control poster height */
-    margin-right: 10px; /* Space between posters */
-    flex-shrink: 0; /* Prevent shrinking */
-    transition: transform 0.2s ease;
-    transform-origin: center center; 
-    border-radius: 5px;
+.posters::-webkit-scrollbar {
+  display: none;
 }
 
-.smallPost{
-    width: 10%;
-    cursor: pointer;
-    max-height: 215px; /* Control poster height */
-    margin-right: 10px; /* Space between posters */
-    flex-shrink: 0; /* Prevent shrinking */
-    transition: transform 0.2s ease;
-    transform-origin: center center; 
-    padding-right: 10px;
-    border-radius: 5px;
+.post {
+  padding-right: 10px;
+  width: 12%;
+  cursor: pointer;
+  max-height: 280px; /* Control poster height */
+  margin-right: 10px; /* Space between posters */
+  flex-shrink: 0; /* Prevent shrinking */
+  transition: transform 0.2s ease;
+  transform-origin: center center;
+  border-radius: 5px;
+}
 
+.smallPost {
+  width: 10%;
+  cursor: pointer;
+  max-height: 215px; /* Control poster height */
+  margin-right: 10px; /* Space between posters */
+  flex-shrink: 0; /* Prevent shrinking */
+  transition: transform 0.2s ease;
+  transform-origin: center center;
+  padding-right: 10px;
+  border-radius: 5px;
 }
 
 .posters img:hover {
-    transform: scale(1.05); 
+  transform: scale(1.05);
 }

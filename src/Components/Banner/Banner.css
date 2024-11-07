@@ -1,67 +1,77 @@
-.banner{
-    background-size: cover;
-    height: 800px;
-    color:white;
+.banner {
+  background-size: cover;
+  height: 800px;
+  color: white;
 }
 
-.content{
-    padding-top: 400px;
-    margin-left: 39px;
+.content {
+  padding-top: 400px;
+  margin-left: 39px;
 }
 
-.btns{
-    display: flex;
+.btns {
+  display: flex;
 }
-.play-btn{
-    display: flex;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 2.4em;
-    height: 45px;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 5px;
-    border-style: none;
-    margin-right: 9px;
-    cursor: pointer;
-}
-
-.play-btn:hover{
-    background: linear-gradient(180deg, rgba(15,15,15,1) 73%, rgba(40,42,42,1) 100%, rgba(19,18,36,1) 100%);
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    color: white;
+.play-btn {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2.4em;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border-style: none;
+  margin-right: 9px;
+  cursor: pointer;
 }
 
-.more-info-btn{
-    display: flex;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 2.4rem;
-    height: 45px;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 5px;
-    border-style: none;
-    cursor: pointer;
-    color: white;
-    background-color: rgba(59, 59, 66, 0.7);
+.play-btn:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(15, 15, 15, 1) 73%,
+    rgba(40, 42, 42, 1) 100%,
+    rgba(19, 18, 36, 1) 100%
+  );
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
 }
 
-.more-info-btn:hover{
-    background: linear-gradient(90deg, rgba(43,36,36,1) 73%, rgba(40,42,42,1) 100%, rgba(19,18,36,1) 100%);
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
+.more-info-btn {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2.4rem;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(59, 59, 66, 0.7);
 }
 
-.text-btn-bnr{
-    margin-left: 7px;
+.more-info-btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(43, 36, 36, 1) 73%,
+    rgba(40, 42, 42, 1) 100%,
+    rgba(19, 18, 36, 1) 100%
+  );
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
 }
 
-.description{
-    max-width: 320px;
-    line-height: 20px;
-    font-size: 16px;
+.text-btn-bnr {
+  margin-left: 7px;
+}
+
+.description {
+  max-width: 320px;
+  line-height: 20px;
+  font-size: 16px;
 }
